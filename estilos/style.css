@@ -25,5 +25,5 @@ section #telefone {
     transform: translate(-50%, -50%);
     height: 500px;
     width: 500px;
-    background: blue ;
+    background: url('../imagens/phone.png');
 }
