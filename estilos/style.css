@@ -6,24 +6,38 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
+
+html{
     height: 100vh;
-    width: 100vw;
-    background-color: black;
+    width: 100vw; 
+}
+
+body {
+    background: url('../imagens/fundo-de-madeira-realista_1022-69.png') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 main {
     position: relative;
     height: 100vh;
-    background-color: green;
 }
 
-section #telefone {
+section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 500px;
-    width: 500px;
-    background-color: blue;
+    height: 740px;
+    width: 740px;
+    background: url('../imagens/celular.png');
+}
+
+iframe#tela {
+    position: relative;
+    top: 118px;
+    left: 188px;
+    width: 364px;
+    height: 541px;
+    background-size: cover;
 }
